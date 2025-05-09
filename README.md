@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ```
 2. Subir a aplicação na porta 8080
 ```sh
-uvicorn api:app --reload --port 8080
+uvicorn app:app --reload --port 8080
 ```
 3. Teste via cURL
 ```sh
