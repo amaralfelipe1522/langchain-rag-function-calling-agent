@@ -1,2 +1,2 @@
-# langchain-rag-function-calling-agent
-Agente de IA desenvolvido usando LangChain para gerenciar as chamadas na OpenAI e da RAG, mantendo o histórico e permitindo o uso de Functions Callings
+# Agente de IA com RAG, Function Calling e Memória de Conversa
+Aplicação desenvolvida com LangChain que integra um agente de linguagem utilizando Azure OpenAI com suporte a Function Calling, recuperação de contexto via RAG (Retrieval-Augmented Generation) e gerenciamento de histórico de conversas. O agente é capaz de responder perguntas com base em contexto externo, acionar ferramentas dinamicamente e manter a continuidade do diálogo com memória persistente.

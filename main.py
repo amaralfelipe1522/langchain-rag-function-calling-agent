@@ -1,6 +1,6 @@
-from search_client import search_index
+from retrievers.search_client import search_index
 from dotenv import load_dotenv
-from chain_with_history import get_chain_with_history
+from chains.chain_with_history import get_chain_with_history
 
 load_dotenv()
 

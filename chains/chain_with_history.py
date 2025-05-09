@@ -1,8 +1,8 @@
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.chat_history import BaseChatMessageHistory
 from langchain_community.chat_message_histories import ChatMessageHistory
-from agent_executor import get_agent_executor
-from prompt_template import get_prompt_template
+from agents.agent_executor import get_agent_executor
+from prompt.prompt_template import get_prompt_template
 
 
 def get_chain_with_history():
