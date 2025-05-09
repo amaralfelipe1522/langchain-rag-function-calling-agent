@@ -1,0 +1,10 @@
+openai
+azure-ai-formrecognizer==3.3.3
+azure-common==1.1.28
+azure-core==1.30.2
+azure-search-documents==11.5.1
+python-dotenv==1.0.1
+requests==2.32.3
+langchain-core
+langchain-openai
+langchain-community
